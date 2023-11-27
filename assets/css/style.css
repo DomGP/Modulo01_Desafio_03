@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:ital,wght@0,300;0,400;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "raleway";
+}
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+/* Sección de imagen de iguana */
+.img-header{
+    width: 100%;
+    margin: 0 auto;
+}
+/* Sección de texto con imagen de iguana */
+.section{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+.section div{
+    width: 49%;
+    text-align: center;
+}
+.section p{
+    text-align: justify;
+    padding:30px 100px 30px 100px;
+}
+div img{
+    padding: 30px;
+}
+/* Sección de caracteristicas con iconos */
+.main{
+    background-color: #1E1A13 ;
+    margin-top: 50px;
+    padding: 20px 0 50px 0;
+    text-align: center;
+}
+h2{
+    padding: 20px 0 50px 0;
+    font-size: 30px;
+}
+.div-icon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+.div-icon div{
+    width:50%;
+    text-align: center;
+}
+/* Para poder separar los iconos del parrafo */
+div i{
+    margin-bottom: 30px;
+}
+/* Sección de imagenes */
+.aside-img{
+    display: flex;
+    justify-content: center;
+    gap: 1.875rem;
+    margin-top: 3.125rem;
+    flex-wrap: wrap;
+}
+.aside-img img{
+    width:400px;
+    height: 300px;
+    
+}
+/* Sección final de footer */
+.footer{
+    background-color: #1E1A13;
+    margin-top: 50px;
+}
+.footer p{
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+a{
+    text-decoration: underline;
+    color: white;
+}
+a:hover{
+    color: lightcoral;
+}
